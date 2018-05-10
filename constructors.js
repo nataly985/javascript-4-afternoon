@@ -14,7 +14,10 @@
 */
 
 // Code here
-
+ function CarFactory (make, model){
+  this.make = make;
+  this.model = model;
+}
 
 
 ////////// PROBLEM 2 //////////
@@ -33,8 +36,9 @@ function Employee(name, email, hireDate) {
 */
 
 // Code here
-
-
+var bob = new Employee ('Bob', 'bob@gmail.com, 01-02-98');
+bob.Employee();
+// console.log(bob);
 
 ////////// PROBLEM 4 //////////
 
@@ -55,4 +59,12 @@ mustang.moveCar(); // Increments mustang' move property by 10. Returns the new m
 
 // Code here
 
+function Car(){
 
+  moveCar = function(){
+    var value = 0 ;
+    return 
+  }
+
+  
+}
